@@ -1,5 +1,4 @@
 # 🗳️Online-Voting-System
-The Online Voting System is a secure and user-friendly web application designed to facilitate the process of voting over the internet. 
 
 An Online Voting System built with HTML, CSS for the frontend, PHP for backend processing, and MySQL as the database. This project allows secure, efficient, and user-friendly online voting with role-based access for voters and administrators.
 
