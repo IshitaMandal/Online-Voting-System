@@ -1,0 +1,117 @@
+body{
+    background-image: url("../css/bg1.png"); 
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+    
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.454);
+    padding: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(2px);
+  }
+.login-container h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+  }
+
+  .login-container input[type="number"] ,
+  .login-container input[type="password"],
+  .login-container select  {
+    width: 90%;
+    padding: 10px;
+    font-size: 17px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 0 10px #2fb520;
+  }
+
+  .login-container #loginbutton {
+    width: 60%;
+    padding: 10px;
+    font-size: 17px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+
+  .login-container #loginbutton:hover {
+    background-color: #45a049;
+  }
+
+  .login-container a {
+    color: #2f2121;
+  }
+
+  .register-container {
+    background-color: rgba(255, 255, 255, 0.454);
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(3px); 
+    width: 50%; 
+    max-width: 400px; 
+    margin: 30px auto; 
+  }
+
+    .register-container input[type="text"],
+    .register-container input[type="number"],
+    .register-container input[type="password"],
+    .register-container select {
+            width: 90%;
+            padding: 8px;
+            font-size: 14px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 5px;
+            outline: none;
+            box-shadow: 0 0 10px #2fb520;
+        }
+
+        .register-container input[type="file"] {
+            border-radius: 5px;
+            padding: 10px;
+            
+        }
+
+        .register-container button {
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 15px;
+            width: 50%; 
+            background-color: #09e3ac;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .register-container button:hover {
+            background-color: #05b56c;
+            padding: 8px;
+            border-radius: 10px;
+            font-size: 15px;
+            width: 10%;
+            background-color: #09e3b0;
+            color: white;
+        }
+
+    
+
+ 

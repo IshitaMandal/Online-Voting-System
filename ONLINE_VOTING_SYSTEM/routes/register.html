@@ -1,0 +1,87 @@
+<html>
+  <head>
+    <title>Online Voting System - Registration</title>
+    <link rel="stylesheet" href="../routes/css/stylesheet.css" />
+  </head>
+
+  <body>
+    <div class="register-container">
+    <style>
+      #address {
+        width: 90%;
+      }
+
+      #imagepart {
+        border: 2px solid black;
+        border-radius: 4px;
+        padding: 6px;
+        width: 50%;
+      }
+
+      #role {
+        border: 2px solid black;
+        border-radius: 5px;
+        padding: 6px;
+        width: 50%;
+      }
+
+      #role select {
+        border-radius: 5px;
+        padding: 8px;
+      }
+    </style>
+
+    <center>
+      <div id ="headerSection">
+        <h1>Online Voting System</h1>
+        </div>
+        <hr>
+        <h3>Registration</h3>
+        <form
+          action="../api/register.php"
+          method="POST"
+          enctype="multipart/form-data">
+          <input type="text" name="name" placeholder="Name" />
+          <input type="number" name="mobile" placeholder="Mobile" /><br>
+          <input type="password" name="password" placeholder="Enter Password" />
+          <input
+            type="password"
+            name="cpassword"
+            placeholder="Confirm Password"
+          /><br />
+          <input
+            id="address"
+            type="text"
+            name="address"
+            placeholder="Address"
+          /><br />
+          <div id="imagepart">
+            Upload image: <input type="file" name="photo" />
+          </div>
+          <br />
+          <div id="role">
+            Select your role:
+            <select name="role">
+              <option value="1">Voter</option>
+              <option value="2">Group</option>
+            </select>
+          </div>
+          <br />
+          <button
+            style="
+              padding: 6px;
+              border-radius: 5px;
+              font-size: 16px;
+              width: 50%;
+              background-color: #4caf50;
+              color: white;
+            "
+          >
+            Register</button
+          ><br ><br>
+          Already user? <a href="../">Login here</a>
+        </form>
+      </div>
+    </center>
+  </body>
+</html>
